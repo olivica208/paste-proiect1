@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/08/04/19/ornamental-cherry-5015660_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color:  rgba(214, 122, 122, 0.85);
+    color: rgb(0, 0, 0);
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(202, 114, 114, 0.85);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgba(241, 17, 148, 0.9);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 15px 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgba(231, 141, 194, 0.9);
+    border-radius: 6px;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: rgba(202, 114, 114, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #1b1b1b;
+}
+
+img {
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0;
+    background-color: #89f0ab;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+table, th, td {
+    border: 1px solid #58e476;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    color: #201f20dc;
+}
+
+th {
+    background-color: #3cca72;
+}
+
+ul.lista-cu-imagini {
+    list-style: none;
+    padding: 0;
+}
+
+ul.lista-cu-imagini li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+ul.lista-cu-imagini img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    border: none;
+}
+
+footer {
+    background-color:  rgba(202, 114, 114, 0.85);
+    color: rgb(31, 29, 29);
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 4px solid rgba(241, 17, 148, 0.9);
+    border-radius: 10px 10px 0 0;
+}
